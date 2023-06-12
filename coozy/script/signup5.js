@@ -10,6 +10,6 @@ function storeData(e) {
   existingData.last_name = `${last_name.value}`;
   localStorage.setItem("signDataKey", JSON.stringify(existingData));
   console.log(existingData.email);
-  window.location.href = "/coozy/signup/signup6.html";
+  window.location.href = "/signup/signup6.html";
 }
 continueBtn.addEventListener("click", storeData);

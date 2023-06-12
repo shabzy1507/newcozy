@@ -40,7 +40,7 @@ function storeData(e) {
   existingData.email = `${signUpEmail.value}`;
   localStorage.setItem("signDataKey", JSON.stringify(existingData));
   console.log(existingData.email);
-  window.location.href = "/coozy/signup/signup5.html";
+  window.location.href = "/signup/signup5.html";
   // const addData{
   // const newData = addData(email.value);
   // return { n };
